@@ -260,7 +260,7 @@ model_lstm.compile(loss='categorical_crossentropy',
               metrics=['accuracy'])
               
               
- y_pred = model_lstm.predict(format_3d(X_test)) 
+y_pred = model_lstm.predict(format_3d(X_test)) 
 
 y_pred = y_pred.round()
 y_pred_label = np.argmax(y_pred, axis=1)
