@@ -1,6 +1,7 @@
-### download datasets
+### Download Datasets
 https://www.unb.ca/cic/datasets/ddos-2019.html
-
+* create datesets folser in c:\
+  
 ```
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
