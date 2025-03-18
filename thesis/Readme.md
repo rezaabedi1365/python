@@ -9,7 +9,7 @@ from sklearn import preprocessing
 import os
 dataset_path = []
 
-for dirname, _, filenames in os.walk('/User/input/Dataset.csv'):
+for dirname, _, filenames in os.walk('c:\\datasets'):
     for filename in filenames:
         if filename.endswith('.csv'):
             dfp = os.path.join(dirname, filename)
