@@ -27,3 +27,8 @@ install matplotlib
 pip install matplotlib
 pip show matplotlib
 ```
+install PyTorch
+```
+pip install torch torchvision torchaudio
+pip show torch 
+```
