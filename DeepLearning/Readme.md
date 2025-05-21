@@ -30,16 +30,13 @@
 		
 ###	IV. Modeling
 * Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
-    - scikit-learn Library
-    - tensorflow Library
---------------------------------------------------------
-#### Learning model
---------------------------------------------------------
-		##### **1- Supervised Learning**
-		##### **2- Unsupervised Learning**
-		##### **3- Semi-Supervised Learning**
-		##### **4- Self-Supervised Learning**
-		##### **5- Reinforcement Learning**
+##### **scikit-learn Library*
+##### **tensorflow Library-
+  - 1-Supervised Learning**
+  - 2- Unsupervised Learning**
+  - 3- Semi-Supervised Learning**
+  - 4- Self-Supervised Learning**
+  - 5- Reinforcement Learning**
 
 
 
