@@ -34,6 +34,7 @@
     - tensorflow Library
 --------------------------------------------------------
 #### Learning model
+--------------------------------------------------------
 ##### **Supervised Learning**
 ##### **Unsupervised Learning**
 ##### **Semi-Supervised Learning**
