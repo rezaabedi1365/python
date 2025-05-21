@@ -6,7 +6,9 @@ activate tensorflow
 pip install tensorflow
 pip install tensorflow-gpu
 pip show tensorflow
+which tensorflow
 ```
+import
 ```
 python
 >>> import tensorflow
@@ -16,7 +18,9 @@ python
 ```
 pip install pandas
 pip show pandas
+which pandas
 ```
+import
 ```
 python
 >>> import pandas
@@ -26,7 +30,9 @@ python
 ```
 pip install numpy
 pip show numpy
+which numpy
 ```
+import
 ```
 python
 >>> import numpy
@@ -36,7 +42,9 @@ python
 ```
 pip install scikit-learn
 pip show scikit-learn
+which scikit-learn
 ```
+import
 ```
 python
 >>> import scikit-learn
@@ -46,7 +54,9 @@ python
 ```
 pip install matplotlib
 pip show matplotlib
+which matplotlib
 ```
+import
 ```
 python
 >>> import matplotlib
@@ -55,8 +65,10 @@ python
 ### install PyTorch
 ```
 pip install torch torchvision torchaudio
-pip show torch 
+pip show torch
+which torch
 ```
+import
 ```
 python
 >>> import torch 
