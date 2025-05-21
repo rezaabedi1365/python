@@ -35,11 +35,11 @@
 --------------------------------------------------------
 #### Learning model
 --------------------------------------------------------
-##### **1- Supervised Learning**
-##### **2- Unsupervised Learning**
-##### **3- Semi-Supervised Learning**
-##### **4- Self-Supervised Learning**
-##### **5- Reinforcement Learning**
+		##### **1- Supervised Learning**
+		##### **2- Unsupervised Learning**
+		##### **3- Semi-Supervised Learning**
+		##### **4- Self-Supervised Learning**
+		##### **5- Reinforcement Learning**
 
 
 
