@@ -36,8 +36,8 @@
   	- CNN
   	- RNN
   	- LSTM
-   		##scikit-learn Library
-   		##tensorflow Library
+   	    ##scikit-learn Library
+   	    ##tensorflow Library
   	```
 * Generate test design: Pending your modeling approach, you might need to split the data into training, test, and validation sets.
 * Build model: As glamorous as this might sound, this might just be executing a few lines of code like “reg = LinearRegression().fit(X, y)”.
