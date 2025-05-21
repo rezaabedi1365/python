@@ -30,8 +30,8 @@
 		
 ###	IV. Modeling
 * Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
-        - scikit-learn Library
-        - tensorflow Library
+    - scikit-learn Library
+    - tensorflow Library
 --------------------------------------------------------
 Learning model
 
