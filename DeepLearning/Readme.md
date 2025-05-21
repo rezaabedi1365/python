@@ -37,7 +37,7 @@
   - 4- Self-Supervised Learning
   - 5- Reinforcement Learning
  
-![image](https://github.com/user-attachments/assets/f6d1ed17-e2af-4633-af32-cbaa730b7e80)
+	![image](https://github.com/user-attachments/assets/f6d1ed17-e2af-4633-af32-cbaa730b7e80)
 
 
 
