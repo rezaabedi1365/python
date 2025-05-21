@@ -101,3 +101,50 @@ Machine learning encompasses several core learning methods, each suited to diffe
 These learning methods form the foundation of machine learning, with each approach offering strengths for specific data types and tasks. Many modern systems combine elements from multiple learning methods to achieve optimal results[1][4][7].
 
 
+## Main Learning Methods in Deep Learning
+
+Deep learning primarily employs three main learning paradigms, each suited to different types of data and tasks:
+
+---
+
+### 1. **Supervised Learning**
+- **Description:**  
+  The model learns from labeled data, where each input is paired with a known output (label). The goal is to learn a mapping from inputs to outputs to predict labels on new, unseen data.  
+- **Common Tasks:** Classification, regression  
+- **Example Models:**  
+  - Convolutional Neural Networks (CNNs) for image classification  
+  - Recurrent Neural Networks (RNNs) and Long Short-Term Memory networks (LSTMs) for sequence data  
+  - Deep Belief Networks (DBNs) with fine-tuning via backpropagation  
+- **Applications:** Image recognition, speech recognition, natural language processing, medical diagnosis
+
+---
+
+### 2. **Unsupervised Learning**
+- **Description:**  
+  The model learns patterns from unlabeled data without explicit output labels. It discovers the underlying structure or distribution of the data.  
+- **Common Tasks:** Clustering, dimensionality reduction, feature learning, generative modeling  
+- **Example Models:**  
+  - Autoencoders and Variational Autoencoders (VAEs) for representation learning and clustering  
+  - Deep Belief Networks (DBNs) for feature extraction  
+  - Generative Adversarial Networks (GANs) for data generation  
+- **Applications:** Customer segmentation, anomaly detection, data compression, image generation
+
+---
+
+### 3. **Reinforcement Learning (Deep Reinforcement Learning)**
+- **Description:**  
+  An agent learns to make sequential decisions by interacting with an environment, receiving rewards or penalties, and optimizing its policy to maximize cumulative reward. Deep learning models approximate value functions or policies.  
+- **Example Models:**  
+  - Deep Q-Networks (DQNs) combining Q-learning with deep neural networks  
+  - Actor-Critic methods  
+  - Policy Gradient methods  
+- **Applications:** Robotics, autonomous driving, game playing (e.g., AlphaGo), recommendation systems
+
+---
+
+![image](https://github.com/user-attachments/assets/501bb935-6217-4fda-aaab-111a351e50a9)
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/user-attachments/assets/a16ab370-36b6-4ef3-8bad-8ce723667b66)
