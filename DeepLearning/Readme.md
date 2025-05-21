@@ -32,12 +32,13 @@
 * Select modeling techniques: Determine which algorithms to try (with scikit-learn Library and tensorflow Library).
   - 1-Supervised Learning
       + LSTM
+        ![image](https://github.com/user-attachments/assets/f6d1ed17-e2af-4633-af32-cbaa730b7e80)
   - 2- Unsupervised Learning
   - 3- Semi-Supervised Learning
   - 4- Self-Supervised Learning
   - 5- Reinforcement Learning
  
-	![image](https://github.com/user-attachments/assets/f6d1ed17-e2af-4633-af32-cbaa730b7e80)
+	
 
 
 
