@@ -1,6 +1,8 @@
 - https://www.datascience-pm.com/crisp-dm-2/
 
 # CRISP
+![image](https://github.com/user-attachments/assets/9e743a10-2a34-48ec-a596-05aef0cdbd0c)
+
 ###	I. Business Understanding
 * Determine business objectives:
   	- You should first “thoroughly understand, from a business perspective, what the customer really wants to accomplish.” (CRISP-DM Guide) and then define business success criteria.
