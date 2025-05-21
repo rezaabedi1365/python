@@ -11,7 +11,7 @@
 * Determine data mining goals:
 	- In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective.
 * Produce project plan:
-  	- Select technologies and tools and define detailed plans for each project phase.
+        - Select technologies and tools and define detailed plans for each project phase.
   
 ###	II. Data Understanding
 * Collect initial data: Acquire the necessary data and (if necessary) load it into your analysis tool.
@@ -30,9 +30,8 @@
 		
 ###	IV. Modeling
 * Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
- 
-- scikit-learn Library
-- tensorflow Library
+        - scikit-learn Library
+        - tensorflow Library
 --------------------------------------------------------
 Learning model
 
