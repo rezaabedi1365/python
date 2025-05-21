@@ -58,39 +58,6 @@
 
 
 ---------------------------------------------------
-# Main Learning Methods in Machine Learning
-
-Machine learning encompasses several core learning methods, each suited to different types of data and problem domains. The principal learning methods are:
-
-### **Supervised Learning**
-- **Description:** The model is trained on a labeled dataset, meaning each input has a corresponding correct output. The algorithm learns to map inputs to outputs and generalizes to predict unseen data.
-- **Applications:** Classification, regression, risk assessment, image recognition, predictive analytics, fraud detection[1][5][6].
-- **Examples:** Linear regression, logistic regression, support vector machines (SVM), decision trees, random forests, neural networks[6].
-
-### **Unsupervised Learning**
-- **Description:** The model works with unlabeled data, seeking to uncover patterns, groupings, or structures without explicit instruction.
-- **Applications:** Clustering, dimensionality reduction, anomaly detection, association mining, exploratory data analysis[1][4][8].
-- **Examples:** K-means clustering, hierarchical clustering, principal component analysis (PCA), Gaussian mixture models[1][4].
-
-### **Semi-Supervised Learning**
-- **Description:** Combines a small amount of labeled data with a large amount of unlabeled data. The labeled data helps guide the learning process, improving accuracy compared to purely unsupervised methods.
-- **Applications:** Fraud detection, speech recognition, text classification[1][7].
-- **Examples:** Modified versions of supervised and unsupervised algorithms adapted to leverage both labeled and unlabeled data[1][7].
-
-### **Self-Supervised Learning**
-- **Description:** A form of unsupervised learning where the model generates its own supervisory signals from the input data, often by predicting parts of the data from other parts.
-- **Applications:** Computer vision, natural language processing, especially where labeled data is scarce[1][4].
-
-### **Reinforcement Learning**
-- **Description:** An agent learns to make sequences of decisions by interacting with an environment, receiving rewards or penalties based on its actions, and optimizing its strategy over time.
-- **Applications:** Robotics, game playing, autonomous systems, recommendation engines[1][2][3].
-- **Examples:** Q-learning, deep Q-networks, policy gradient methods[1].
-
----
-
-These learning methods form the foundation of machine learning, with each approach offering strengths for specific data types and tasks. Many modern systems combine elements from multiple learning methods to achieve optimal results[1][4][7].
-
-
 ## Main Learning Methods in Deep Learning
 
 Deep learning primarily employs three main learning paradigms, each suited to different types of data and tasks:
@@ -136,5 +103,7 @@ Deep learning primarily employs three main learning paradigms, each suited to di
 
 
 -----------------------------------------------------------------------------------------------------------------
-
+### Main Tasks in Deep Learning
 ![image](https://github.com/user-attachments/assets/a16ab370-36b6-4ef3-8bad-8ce723667b66)
+
+![image](https://github.com/user-attachments/assets/ba533cb9-66f2-40a0-88af-72fee3e2c7a5)
