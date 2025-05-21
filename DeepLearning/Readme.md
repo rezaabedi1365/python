@@ -33,12 +33,12 @@
     - scikit-learn Library
     - tensorflow Library
 --------------------------------------------------------
-###### Learning model
-### **Supervised Learning**
-### **Unsupervised Learning**
-### **Semi-Supervised Learning**
-### **Self-Supervised Learning**
-### **Reinforcement Learning**
+#### Learning model
+###### **Supervised Learning**
+###### **Unsupervised Learning**
+###### **Semi-Supervised Learning**
+###### **Self-Supervised Learning**
+###### **Reinforcement Learning**
 
 
 
