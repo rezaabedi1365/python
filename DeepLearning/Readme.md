@@ -26,23 +26,16 @@
 * Construct data: Derive new attributes that will be helpful. For example, derive someone’s body mass index from height and weight fields.
 * Integrate data: Create new data sets by combining data from multiple sources.
 * Format data: Re-format data as necessary. For example, you might convert string values that store numbers to numeric values so that you can perform mathematical operations.
-  	```
-  	- SVM
-  	- KNN
-  	- Random Forest
-  	- CNN
-  	- RNN
-  	- LSTM
-   	    ##scikit-learn Library
-   	    ##tensorflow Library
-  	```
+
 		
 ###	IV. Modeling
 * Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
-  	```
-        ##scikit-learn Library
-        ##tensorflow Library
-   
+ 
+- scikit-learn Library
+- tensorflow Library
+--------------------------------------------------------
+Learning model
+
   	   - SVM
   	   - KNN
   	   - Random Forest
