@@ -33,16 +33,15 @@
     - scikit-learn Library
     - tensorflow Library
 --------------------------------------------------------
-Learning model
+###### Learning model
+### **Supervised Learning**
+### **Unsupervised Learning**
+### **Semi-Supervised Learning**
+### **Self-Supervised Learning**
+### **Reinforcement Learning**
 
-  	   - SVM
-  	   - KNN
-  	   - Random Forest
-  	   - CNN
-  	   - RNN
-  	   - LSTM
 
-  	```
+
 * Generate test design: Pending your modeling approach, you might need to split the data into training, test, and validation sets.
 * Build model: As glamorous as this might sound, this might just be executing a few lines of code like “reg = LinearRegression().fit(X, y)”.
 * Assess model: Generally, multiple models are competing against each other, and the data scientist needs to interpret the model results based on domain knowledge, the pre-defined success criteria, and the test design.
