@@ -2,7 +2,7 @@
 
 # CRISP
 ###	I. Business Understanding
-		Determine business objectives: You should first “thoroughly understand, from a business perspective, what the customer really wants to accomplish.” (CRISP-DM Guide) and then define business success criteria.
+		* Determine business objectives: You should first “thoroughly understand, from a business perspective, what the customer really wants to accomplish.” (CRISP-DM Guide) and then define business success criteria.
 		Assess situation: Determine resources availability, project requirements, assess risks and contingencies, and conduct a cost-benefit analysis.
 		Determine data mining goals: In addition to defining the business objectives, you should also define what success looks like from a technical data mining perspective.
 		Produce project plan: Select technologies and tools and define detailed plans for each project phase.
