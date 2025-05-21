@@ -26,9 +26,6 @@
 * Construct data: Derive new attributes that will be helpful. For example, derive someone’s body mass index from height and weight fields.
 * Integrate data: Create new data sets by combining data from multiple sources.
 * Format data: Re-format data as necessary. For example, you might convert string values that store numbers to numeric values so that you can perform mathematical operations.
-		
-###	IV. Modeling
-* Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
   	```
   	- SVM
   	- KNN
@@ -39,6 +36,21 @@
    	    ##scikit-learn Library
    	    ##tensorflow Library
   	```
+		
+###	IV. Modeling
+* Select modeling techniques: Determine which algorithms to try (e.g. regression, neural net).
+  	```
+        ##scikit-learn Library
+        ##tensorflow Library
+   
+  	   - SVM
+  	   - KNN
+  	   - Random Forest
+  	   - CNN
+  	   - RNN
+  	   - LSTM
+
+  	```
 * Generate test design: Pending your modeling approach, you might need to split the data into training, test, and validation sets.
 * Build model: As glamorous as this might sound, this might just be executing a few lines of code like “reg = LinearRegression().fit(X, y)”.
 * Assess model: Generally, multiple models are competing against each other, and the data scientist needs to interpret the model results based on domain knowledge, the pre-defined success criteria, and the test design.
@@ -47,5 +59,45 @@
 * Evaluate results: Do the models meet the business success criteria? Which one(s) should we approve for the business?
 * Review process: Review the work accomplished. Was anything overlooked? Were all steps properly executed? Summarize findings and correct anything if needed.
 * Determine next steps: Based on the previous three tasks, determine whether to proceed to deployment, iterate further, or initiate new projects.
+
+
+
+
+
+
+
+
+---------------------------------------------------
+# Main Learning Methods in Machine Learning
+
+Machine learning encompasses several core learning methods, each suited to different types of data and problem domains. The principal learning methods are:
+
+### **Supervised Learning**
+- **Description:** The model is trained on a labeled dataset, meaning each input has a corresponding correct output. The algorithm learns to map inputs to outputs and generalizes to predict unseen data.
+- **Applications:** Classification, regression, risk assessment, image recognition, predictive analytics, fraud detection[1][5][6].
+- **Examples:** Linear regression, logistic regression, support vector machines (SVM), decision trees, random forests, neural networks[6].
+
+### **Unsupervised Learning**
+- **Description:** The model works with unlabeled data, seeking to uncover patterns, groupings, or structures without explicit instruction.
+- **Applications:** Clustering, dimensionality reduction, anomaly detection, association mining, exploratory data analysis[1][4][8].
+- **Examples:** K-means clustering, hierarchical clustering, principal component analysis (PCA), Gaussian mixture models[1][4].
+
+### **Semi-Supervised Learning**
+- **Description:** Combines a small amount of labeled data with a large amount of unlabeled data. The labeled data helps guide the learning process, improving accuracy compared to purely unsupervised methods.
+- **Applications:** Fraud detection, speech recognition, text classification[1][7].
+- **Examples:** Modified versions of supervised and unsupervised algorithms adapted to leverage both labeled and unlabeled data[1][7].
+
+### **Self-Supervised Learning**
+- **Description:** A form of unsupervised learning where the model generates its own supervisory signals from the input data, often by predicting parts of the data from other parts.
+- **Applications:** Computer vision, natural language processing, especially where labeled data is scarce[1][4].
+
+### **Reinforcement Learning**
+- **Description:** An agent learns to make sequences of decisions by interacting with an environment, receiving rewards or penalties based on its actions, and optimizing its strategy over time.
+- **Applications:** Robotics, game playing, autonomous systems, recommendation engines[1][2][3].
+- **Examples:** Q-learning, deep Q-networks, policy gradient methods[1].
+
+---
+
+These learning methods form the foundation of machine learning, with each approach offering strengths for specific data types and tasks. Many modern systems combine elements from multiple learning methods to achieve optimal results[1][4][7].
 
 
