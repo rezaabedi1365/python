@@ -1,11 +1,11 @@
 
 ### install tensorflow
 ```
-conda create --name tensorflow python = 3.11
+conda create --name tf_env python = 3.11
 #conda env list
 #conda remove -n ENV_NAME --all
 
-activate tensorflow
+activate tf_env
 pip install tensorflow
 pip install tensorflow-gpu
 pip show tensorflow
