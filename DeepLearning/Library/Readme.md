@@ -4,13 +4,16 @@
 conda create --name tf_env 
     #conda env list
     #conda remove -n ENV_NAME --all
-activate tf_env
+conda activate tf_env
     #conda deactivate tf_env
 
 #Method1(recomended)
 conda install -c conda-forge tensorflow
-python -m ipykernel install --user --name=tfenv
 conda install -c conda-forge keras
+
+conda install ipykernel
+python -m ipykernel install --user --name=tfenv
+
 ```
 verify:
 ```
