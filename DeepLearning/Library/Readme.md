@@ -1,7 +1,9 @@
 
 ### install tensorflow
 ```
-conda create --name tensorflow python = 3.5
+conda create --name tensorflow python = 3.11
+#conda remove -n ENV_NAME --all
+
 activate tensorflow
 pip install tensorflow
 pip install tensorflow-gpu
