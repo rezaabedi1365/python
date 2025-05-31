@@ -9,13 +9,18 @@ activate tf_env
 
 #Method1(recomended)
 conda install -c conda-forge tensorflow
-
-#Method2
-pip install tensorflow
-pip install tensorflow-gpu
-pip show tensorflow
-
+python -m ipykernel install --user --name=tfenv
+conda install -c conda-forge keras
+```
 verify:
+```
+#new jupyter notbook create
+import tensorflow as tf
+from tenserflow import keras 
+```
+verify method2
+```
+
 pip list
 pip list | findstr tensorflow
 pip list | grep tensorflow
