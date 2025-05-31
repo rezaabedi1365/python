@@ -6,6 +6,8 @@ conda create --name tf_env python = 3.11
 #conda remove -n ENV_NAME --all
 
 activate tf_env
+#conda deactivate
+
 pip install tensorflow
 pip install tensorflow-gpu
 pip show tensorflow
