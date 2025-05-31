@@ -6,7 +6,12 @@ activate tensorflow
 pip install tensorflow
 pip install tensorflow-gpu
 pip show tensorflow
-which tensorflow
+
+pip list
+pip list | findstr tensorflow
+pip list | grep tensorflow
+
+which tensorflow # Linux
 ```
 import
 ```
