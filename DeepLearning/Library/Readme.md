@@ -1,7 +1,7 @@
 
 ### install tensorflow
 ```
-conda create --name tf_env python = 3.11
+conda create --name tf_env 
 #conda env list
 #conda remove -n ENV_NAME --all
 
