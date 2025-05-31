@@ -5,7 +5,7 @@ conda create --name tf_env
     #conda env list
     #conda remove -n ENV_NAME --all
 activate tf_env
-    #conda deactivate
+    #conda deactivate tf_env
 
 #Method1(recomended)
 conda install -c conda-forge tensorflow
