@@ -2,20 +2,23 @@
 ### install tensorflow
 ```
 conda create --name tf_env 
-#conda env list
-#conda remove -n ENV_NAME --all
-
+    #conda env list
+    #conda remove -n ENV_NAME --all
 activate tf_env
-#conda deactivate
+    #conda deactivate
 
+#Method1(recomended)
+conda install -c conda-forge tensorflow
+
+#Method2
 pip install tensorflow
 pip install tensorflow-gpu
 pip show tensorflow
 
+verify:
 pip list
 pip list | findstr tensorflow
 pip list | grep tensorflow
-
 which tensorflow # Linux
 ```
 import
