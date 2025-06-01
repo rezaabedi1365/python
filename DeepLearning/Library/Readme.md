@@ -1,5 +1,6 @@
 
 ### install tensorflow
+Methor1
 ```
 conda create --name tf_env 
     #conda env list
@@ -7,7 +8,6 @@ conda create --name tf_env
 conda activate tf_env
     #conda deactivate tf_env
 
-#Method1(recomended)
 conda install -c conda-forge tensorflow
 conda install -c conda-forge keras
 
@@ -15,26 +15,36 @@ conda install ipykernel
 python -m ipykernel install --user --name=tfenv
 
 ```
-verify:
+Method2
 ```
-#new jupyter notbook create
-import tensorflow as tf
-from tenserflow import keras 
-```
-verify method2
-```
+#run cmd with administrator permision
+cd c:\windows\users\Your_User
+python -m venv myenv
+#verify:
+dir | findstr myenv
 
+myenv\Scripts\activate
+
+pip install tensorflow
+```
+verify resault :
+```
+#new jupyter notbook create and run without error
+import tensorflow as tf
+from tenserflow import keras
+
+#OR
+import tensorflow as tf
+print(tf.__version__)
+```
+verify installation
+```
 pip list
 pip list | findstr tensorflow
 pip list | grep tensorflow
 which tensorflow # Linux
 ```
-import
-```
-python
->>> import tensorflow
->>> print(tensorflow)
-```
+
 ### install pandas
 ```
 pip install pandas
