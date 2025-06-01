@@ -12,7 +12,7 @@ conda install -c conda-forge tensorflow
 conda install -c conda-forge keras
 
 conda install ipykernel
-python -m ipykernel install --user --name=tfenv
+python -m ipykernel install --user --name=tf_env
 
 ```
 Method2
