@@ -1,6 +1,6 @@
 
 ### install tensorflow
-Methor1
+Method1
 ```
 conda create --name tf_env 
     #conda env list
@@ -16,6 +16,9 @@ python -m ipykernel install --user --name=tf_env
 
 ```
 Method2
+```
+pip install --upgrade pip
+```
 ```
 #run cmd with administrator permision
 cd c:\windows\users\Your_User
