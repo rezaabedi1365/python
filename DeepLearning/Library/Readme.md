@@ -1,6 +1,6 @@
 
 ### install tensorflow
-Method1
+Method1 : with conda-forge repository
 ```
 conda create --name tf_env 
     #conda env list
