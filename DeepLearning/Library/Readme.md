@@ -1,6 +1,21 @@
 
 ### install tensorflow
-Method1 : with conda-forge repository
+Method1 : docker
+```
+docker pull tensorflow/tensorflow:latest
+docker run -p 8888:8888 tensorflow/tensorflow:latest-jupyter
+```
+or
+```
+name: <your project name>
+services:
+    tensorflow:
+        ports:
+            - 8888:8888
+        image: tensorflow/tensorflow:latest-jupyter
+```
+
+Method2 : with conda-forge repository
 ```
 conda create --name tf_env 
     #conda env list
@@ -15,7 +30,7 @@ conda install ipykernel
 python -m ipykernel install --user --name=tf_env
 
 ```
-Method2
+Method3
 ```
 pip install --upgrade pip
 ```
