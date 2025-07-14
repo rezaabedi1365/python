@@ -86,13 +86,4 @@
 
 این توابع پایه‌ای و پرکاربرد Matplotlib هستند که برای مصورسازی داده‌ها در پایتون استفاده می‌شوند و می‌توان با ترکیب آن‌ها نمودارهای متنوع و پیچیده‌تری ساخت.
 
-[1] https://kiaraacademy.com/drawing-statistical-graphs-with-python/
-[2] https://howsam.org/matplotlib-tutorial/
-[3] https://7learn.com/blog/matplotlib-and-seaborn-library-tutorial
-[4] https://blog.faradars.org/%D8%B1%D8%B3%D9%85-%D9%86%D9%85%D9%88%D8%AF%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%A7-matplotlib/
-[5] https://rasanegaar.com/blog/%D8%AA%D8%AC%D8%B3%D9%85-%D8%AF%D8%A7%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%A8%D8%A7-matplotlib/
-[6] https://sabzlearn.ir/blog/%D8%B1%D8%B3%D9%85-%D9%86%D9%85%D9%88%D8%AF%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86/
-[7] https://deeptip.ir/python-plotting-with-matplotlib/
-[8] https://backendbaz.ir/python-drawing-intro-to-matplotlib-part-1/
-[9] https://maktabkhooneh.org/mag/draw-functions-in-python/
-[10] https://www.sourcebaran.com/learn/matplotlib_figure_class/
+
